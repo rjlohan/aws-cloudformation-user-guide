@@ -289,7 +289,7 @@ If you specify `DBSecurityGroups`, AWS CloudFormation ignores this property\. To
 
 `LicenseModel`  <a name="cfn-rds-dbinstance-licensemodel"></a>
 The license model of the DB instance\.  
-If `DBSecurityGroups` is specified, updating the license model requires its replacement\.
+If `DBSecurityGroups` is specified, updating the license model requires a host replacement and will incur some interruptions to the database's availability\.
 *Required*: No  
 *Type*: String  
 *Update requires*: [No interruption](using-cfn-updating-stacks-update-behaviors.md#update-no-interrupt)
